@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/Botstrap_5.2/css/bootstrap.min.css">
+<script src="/Botstrap_5.2/js/bootstrap.min.js"></script>
+</head>
+<body style="font-family:Georgia, 'Times New Roman', Times, serif">
+    <header>
+        <nav class="navbar navbar-dark bg-dark" aria-label="First navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="color:black;">VN</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbars">
+                <ul class="navbar-nav me-auto mb-2">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home" style="color:black;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about" style="color:black;">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills" style="color:black;">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio" style="color:black;">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact" style="color:black;">Contact</a>
+                  </li>
+                  </ul>
+    </header><br>
+
+    <section id="home">
+        <h2> Hi, i'm [VIMAL NATHAN]</h2>
+        <p>I'm a [Web Developer].Welcome to my portfolio! </p>
+        <img src="Profile.jpg" alt="Profile Photo">
+        <a href="#portfolio" class="cta">View My Work</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am currently pursuing a Bachelor of Engineering at Mailam Engineering College, specializing in Computer Science and Engineering. I have a passion for Web Development.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS(Basic)</li> 
+            <li>Java Script(Basic)</li>
+            <li>Bootstrap(Basic)</li>
+            <li>Teamwork</li>
+            <li>Thinking Ability</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Projects</h2>
+       <div class="project">
+        <h3>Movie Buff Central</h3>
+        <p>This project contains responsive web pages as a tribute for Marvel Cinemati Universe contains division with posters,characters with their details,movie trailers,random quotes,quiz.</p>
+        <a href="#" target="_blank">Live Demo</a> | <a href="https://github.com/V726328/movie-tribute-page.git" target="_blank">GitHub Repo</a>
+       </div>
+       <div class="project">
+        <h3>Cricket Legends Hub</h3>
+        <p>Details related to top cricket players with there details total matches played,total  runs taken and so on.</p>
+        <a href="#" target="_blank">Live Demo</a> | <a href="https://github.com/V726328/cricket-hub.git" target="_blank">GitHub Repo</a>
+       </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="container-fluid">
+          <form id="contact-form">
+            <div class="form">
+              <div class="form-floating">
+                <input type="name" class="form-control"  placeholder="Enter your Name" required>
+                <label for="floatingName">Name</label>
+              </div><br>
+              
+              <div class="form-floating">
+                <input type="email" placeholder="Enter your Email" class="form-control" required>
+                <label for="floatingEmail">Email</label>
+              </div><br>
+              
+              
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a Comments" id="textarea" style="height: 90px" required></textarea>
+                  <label for="textarea">Comments</label>
+              </div><br><br>
+
+              <div class="btn">
+                <button  style="border-radius: 8px;" type="submit">Send Message</button><br>
+              </div>
+          </div>
+          </form>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p> @[VIMAL NATHAN] - [2024]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

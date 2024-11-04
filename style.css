@@ -1,0 +1,57 @@
+.navbar{
+       background: linear-gradient(to right, #ff00cc, #333399);
+}
+
+
+
+section{
+       padding: 20px;
+       margin: 20px;
+}
+
+.project{
+       border: 1px solid #ddd;
+       padding: 10px;
+       margin: 10px;
+       background-color: beige;
+}
+
+.cta{
+     display: inline-block;
+     background: #28a745;
+     color:white;
+     padding: 10px 15px;
+     text-decoration: none;
+     border-radius: 10px;
+}
+
+.form{
+    border: solid 3px #fff;
+    background-color: beige;
+    border-top: 10px;
+    border-radius: 8px;
+}
+
+
+.form-floating{
+       padding-top: 10px;
+       padding-left: 5px;
+       width: 99%;
+}
+
+.btn{
+     padding-left: 2px; 
+}
+
+button{
+       display:inline-block;
+       background: #69f8f8;
+       border: #69f8f8;
+}
+
+footer{
+       background: linear-gradient(to right, #ff00cc, #333399);
+       border-top: 5%;
+       align-content: center;
+       text-align: center;
+}
